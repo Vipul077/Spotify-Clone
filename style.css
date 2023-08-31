@@ -1,0 +1,83 @@
+/* Creating multiple pages in a single project is a common practice in web development. Here's a general step-by-step guide on how you can do it:
+
+Create separate HTML files for each page: Each page on your website should have its own HTML file. For example, you might have home.html for your homepage and playlist.html for your playlist page.
+
+Link between pages using anchor tags: You can use the <a> tag in HTML to link between your pages. For example, on your homepage, you might have a link to your playlist page like this: <a href="playlist.html">Go to Playlist</a>. When you click this link, it will take you to playlist.html.
+
+Style each page using CSS: You can use separate CSS files for each HTML file or a single CSS file for the entire project, depending on your preference. If you're using separate files, don't forget to link the correct CSS file in each HTML file using the <link> tag.
+
+Add interactivity with JavaScript: If you want to add interactive features to your pages, you can use JavaScript. Like with CSS, you can either use separate JS files for each HTML file or a single JS file for the entire project.
+
+Remember, this is a very basic guide. Depending on the complexity of your project and the technologies you're using, you might need to follow different steps. For example, if you're using a JavaScript framework like React or Vue.js, the process of creating multiple pages (often called "routes" in this context) will be different. */
+
+
+.spotifyheader{
+    text-align: center;
+    padding: 40px;
+    font: DM Sans;
+    font-weight: 700;
+    
+}
+
+.features{
+    margin-left: 40px;
+    justify-content: center;
+    padding: 20px;
+}
+.spotifylogo{
+    padding-bottom: 20px;
+}
+
+.left-option-top{
+    justify-content: center;
+}
+
+.HomeDiv{
+    background-color: black;
+    width: 1728px;
+    height: 1116.5px;
+    color: white;
+}
+.createplaylist{
+    display:flex;
+    align-items: center;
+}
+.homesection{
+    display:flex;
+    align-items: center;
+}
+.left-option-bottom{
+    display:flex;
+    align-items: center;
+}
+
+.left-option-list{
+    color: white;
+}
+
+.heading{
+    color: white;
+}
+/* .heading, .image-container{
+    margin-right: 10px;;
+} */
+
+.image-container {
+    position: relative;
+    width: 29.60px;
+    height: 29.60px;
+}
+
+.outer-image {
+    width: 100%;
+    height: 100%;
+}
+
+.inner-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+}
