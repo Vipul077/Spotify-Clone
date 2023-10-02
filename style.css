@@ -8,76 +8,196 @@ Style each page using CSS: You can use separate CSS files for each HTML file or 
 
 Add interactivity with JavaScript: If you want to add interactive features to your pages, you can use JavaScript. Like with CSS, you can either use separate JS files for each HTML file or a single JS file for the entire project.
 
-Remember, this is a very basic guide. Depending on the complexity of your project and the technologies you're using, you might need to follow different steps. For example, if you're using a JavaScript framework like React or Vue.js, the process of creating multiple pages (often called "routes" in this context) will be different. */
+Rmember, this is a very basic guide. Depending on the complexity of your project and the technologies you're using, you might need to follow different steps. For example, if you're using a JavaScript framework like React or Vue.js, the process of creating multiple pages (often called "routes" in this context) will be different. */
 
-
-.spotifyheader{
-    text-align: center;
-    padding: 40px;
-    font: DM Sans;
-    font-weight: 700;
-    
-}
-
-.features{
-    margin-left: 40px;
-    justify-content: center;
-    padding: 20px;
-}
-.spotifylogo{
-    padding-bottom: 20px;
-}
-
-.left-option-top{
-    justify-content: center;
-}
-
-.HomeDiv{
+/* *{
     background-color: black;
-    width: 1728px;
-    height: 1116.5px;
-    color: white;
-}
-.createplaylist{
-    display:flex;
-    align-items: center;
-}
-.homesection{
-    display:flex;
-    align-items: center;
-}
-.left-option-bottom{
-    display:flex;
-    align-items: center;
-}
-
-.left-option-list{
-    color: white;
-}
-
-.heading{
-    color: white;
-}
-/* .heading, .image-container{
-    margin-right: 10px;;
 } */
 
-.image-container {
+.Main-home{
+  background-color: black;  
+  width: 1728px;
+  height: 1117px;
+  /* border: 2px solid yellow; */
+}
+
+.horizontal-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-section{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid yellow;
+    padding: 40px;
+    width: 371px;
+    height: 80vw;
+}
+
+.home-search-library{
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+    padding-top: 60px;
+    gap: 15px;
+}
+
+.home1{
+    padding-left: 10px;
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+    border: 2px solid orange;
+    justify-content: left;
+    align-items: self-start;
+}
+
+p{
+    padding-left: 20px;
+    font-size: 19px;
+    color: white;
+}
+
+.list{
+    padding-top: 40px;
+}
+.para-1{
+    padding-left: 0px;
+    padding-bottom: 15px;
+}
+
+.playlist-songs-episodes{
+    display: flex;
+    flex-direction: column;
+    padding-top: 110px;
+}
+.playlist{
+    display: flex;
+    margin-bottom: 15px;
+}
+.symbol {
     position: relative;
-    width: 29.60px;
-    height: 29.60px;
-}
-
-.outer-image {
-    width: 100%;
-    height: 100%;
-}
-
-.inner-image {
+    top: 0;
+    left: 0;
+  }
+  
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 1px solid #000000;
+  }
+  
+  .image2 {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50%;
-    height: 50%;
-}
+    top: 10px;
+    left: 10px;
+    border: 1px solid #000000;
+  }
+
+  .image1-2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 1px solid #000000;
+  }
+  
+  .image2-2 {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    border
+    : 1px solid #000000;
+  } 
+  .image1-3 {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 1px solid #000000;
+  }
+  
+  .image2-3 {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    border: 1px solid #000000;
+  }
+
+  .install-section{
+    display: flex;
+    align-items: self-end;
+    justify-content: left;
+    align-items: center;
+    padding-top: 60px;
+  }
+
+  .right-section{
+    border: 2px solid yellow;
+
+  }
+
+  .top{
+    display: flex;
+    width: 1357px;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  h2{
+    color: white;
+    font-weight: 400;
+    padding-bottom: 20px;
+  }
+
+  .good-morning-list{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border: 2px solid yellow;
+  }
+
+  .morning-list{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+  }
+
+  .morning-list-1{
+    display: flex;
+    width: 365px;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    /* padding: 20px; */
+    padding-left: 0px;
+    /* border: 2px solid yellow; */
+    background-color: #303030;
+  }
+
+  .symbol-1 {
+
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
+  .image1-2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 1px solid #000000;
+  }
+  
+  .image2-2 {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    border
+    : 1px solid #000000;
+  } 
